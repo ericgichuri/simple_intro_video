@@ -1,0 +1,98 @@
+body{
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+	background: #000088;
+}
+.container{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.text1{
+	text-align: center;
+	font-family: helvetica;
+	font-size: 30px;
+	font-style: italic;
+	color: rgb(220, 230, 0);
+	font-weight: 550;
+}
+.subscibetext1{
+	text-align: center;
+	font-family: times;
+	font-size: 27px;
+	font-style: italic;
+	color: rgb(220, 230, 0);
+	font-weight: 550;
+}
+.text2{
+	text-align: center;
+	font-family: times;
+	font-size: 20px;
+	font-style: italic;
+	color: rgb(220, 230, 0);
+	font-weight: 450;
+	opacity: 0;
+	transform: translateY(0px);
+	transition: 1s ease-in;
+}
+.Subscribeholder{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: 1px solid black;
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+	background: whitesmoke;
+	padding: 3px;
+}
+.Subscribeholder .divimage{
+	background: #000088;
+	padding: 2px;
+	border: 1px solid white;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Subscribeholder .divimage img{
+	background: #000088;
+	padding: 2px;
+	border-radius: 50%;
+}
+.btnsubscribe{
+	width:120px;
+	height: 35px;
+	cursor: pointer;
+	background: rgb(250, 0, 0);
+	color: whitesmoke;
+	font-weight: 450;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	outline: none;
+	border: 0;
+	font-size: 15px;
+}
+.btnsubscribe img{
+	padding-right: 10px;
+}
+.btnlike,
+.btnnotify{
+	border: 0;
+	color: inherit;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.subscribed{
+	background: rgb(128,128,128);
+}
+.notifyclick{
+	transform: scale(1.4);
+}
+button{
+	transition: 1s ease-in-out;
+}
